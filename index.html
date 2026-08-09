@@ -19,8 +19,29 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 15px;
+        }
+        .header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+        }
+        .header-text h1 {
+            margin: 0;
+            color: #333;
+            font-size: 28px;
+        }
         h1 {
             color: #333;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
         }
         p {
             line-height: 1.6;
@@ -33,7 +54,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>Fatally Flawed Experiments in Euthanasia and Assisted Suicide</h1>
+        <div class="header">
+            <img src="https://avatars.githubusercontent.com/u/314537876?v=4" alt="Australian Care Alliance Logo">
+            <div class="header-text">
+                <h1>Australian Care Alliance</h1>
+            </div>
+        </div>
+
+        <h2>Fatally Flawed Experiments in Euthanasia and Assisted Suicide</h2>
         
         <p>Beginning with the first, short-lived experiment with a law permitting euthanasia, which was conducted in the Northern Territory from July 1996 to March 1997, there are thirty jurisdictions which have (or had) a scheme permitting either euthanasia or assisted suicide or both.</p>
 
